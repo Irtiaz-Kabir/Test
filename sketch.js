@@ -3,7 +3,7 @@ var output;
 function setup() {
   createCanvas(400,400);
   background(100,200,255);
-  inputBox = createInput();
+  inputBox = createInput('Test');
   inputBox.position(100,100);
   inputBox.input(para);
   output = createP('');
